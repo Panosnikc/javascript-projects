@@ -16,8 +16,7 @@ btns.forEach(function (btn) {
       value.style.color = "red";
       count--;
     } else {
-      alert('Are you SURE you want to reset ? (This cannot be undone.)');
-      value.style.color = "black";
+      value.style.color = 'hsl(209, 61%, 16%)';
       count = 0;
     }
     value.textContent = count;
